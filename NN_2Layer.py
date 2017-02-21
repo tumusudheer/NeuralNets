@@ -3,7 +3,7 @@ import numpy as np
 #input
 X = np.array([ [0,0,1],[0,1,1],[1,0,1],[1,1,1] ])
 
-# actual outpyt
+# actual output
 y = np.array([[0,1,1,0]]).T
 
 w0 = 2*np.random.random((3,4)) - 1
